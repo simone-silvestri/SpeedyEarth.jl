@@ -83,7 +83,6 @@ poly(grid2; color = values_back_on_grid2, strokewidth = 2, strokecolor = :green)
 # We can see here that some data has diffused into the central diamond cell of grid2,
 # since it was overlapped by the top left cell of grid1.
 
-
 using SpeedyWeather
 using GeoMakie
 

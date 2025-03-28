@@ -3,6 +3,12 @@ uuid = "0d89bae7-8915-425f-ba3d-356dd1bcdcb7"
 authors = ["Simone Silvestri"]
 version = "1.0.0-DEV"
 
+[deps]
+ClimaOcean = "0376089a-ecfe-4b0e-a64f-9c555d74d754"
+GeometryOps = "3251bfac-6a57-4b6d-aa61-ac1fef2975ab"
+Oceananigans = "9e8cae18-63c1-5223-a75c-80ca9d6e9a09"
+SpeedyWeather = "9e226e20-d153-4fed-8a5b-493def4f21a9"
+
 [compat]
 julia = "1.6.7"
 

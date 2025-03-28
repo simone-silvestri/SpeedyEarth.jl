@@ -1,5 +1,12 @@
 module SpeedyEarth
 
-# Write your package code here.
+using ClimaOcean, Oceananigans, SpeedyWeather
+using GeometricOps, GeometryBasics, KernelAbstractions
+using GeoMakie
+
+include("methods_extension.jl")
+include("extract_grid_polygons.jl")
+include("conservative_remapping.jl")
+include("earth_simulation.jl")
 
 end

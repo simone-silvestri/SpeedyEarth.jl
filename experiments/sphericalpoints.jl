@@ -109,9 +109,6 @@ function _ring_area(m::GO.Spherical, ring)
     return area
 end
 
-
-
-
 # Test the area calculation
 p1 = GI.Polygon([GI.LinearRing(Point2f[(0, 0), (1, 0), (0, 1), (0, 0)] .- (Point2f(0.5, 0.5),))])
 
