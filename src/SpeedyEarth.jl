@@ -1,7 +1,7 @@
 module SpeedyEarth
 
 using ClimaOcean, Oceananigans, SpeedyWeather
-using GeometricOps, GeometryBasics, KernelAbstractions
+using GeometryOps, GeometryBasics, KernelAbstractions
 using GeoMakie
 
 include("methods_extension.jl")
